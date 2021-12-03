@@ -1,0 +1,82 @@
+/* Reaponsive media queries start */
+
+/***** Most of the smart phone
+   	Resulation: 320px to 480px; 
+*****/
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+	/* css code start here */
+
+	/* nav-bar code start here */
+
+	.navbar-brand img{
+		height: 45px;
+    	padding-left: 0px;
+	}
+
+	/* nav-bar code end here */
+
+
+	/* banner code start here */
+
+	.promo-title{
+		margin-top: 20px;
+	}
+
+	/* banner code end here */
+
+	/* services code start here */
+
+	#services{
+		padding: 40px 0;
+	}
+
+	.services{
+		padding: 10px;
+	}
+
+	.title::before{
+		transform: translateY(47px);
+	}
+
+	/* about-us code start here */
+
+	#about-us{
+		padding-bottom: 35px;
+    	padding-top: 35px;
+	}
+
+	.about-title{
+		font-size: 30px;
+	}
+
+	/* about-us code end here */
+
+	/* testimonial code start here */
+
+	#testimonials{
+		padding: 40px 0;
+	}
+
+	.testimonials{
+		margin-top: 25px;
+    	margin-bottom: 25px;
+	}
+
+	/* testimonial code end here */
+
+	/* social-media code start here */
+
+	#social-media{
+		padding: 40px 0;
+	}
+
+
+	/* social-media code end here */
+
+	/* css code start end */
+}
+
+/* Reaponsive media queries end */
